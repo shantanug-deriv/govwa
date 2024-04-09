@@ -69,7 +69,7 @@ jobs:
                   echo "severity:     ${severity}"
                   echo "confidence:   ${confidence}"
                   echo "line:         ${line}"
-                  echo "code:         ${code}"
+                  echo -e "code:         ${code}"
                   echo "file:         ${file}"
                   echo ""
               done
